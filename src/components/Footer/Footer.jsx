@@ -5,9 +5,8 @@ const Footer = () => {
         <div>
             <p>
                 <small>Thank you for visiting our website</small>
-                <a href="/">terms</a>
-                <a href="/">privacy</a>
-                <a href="/fb">Facebook</a>
+                <a href="/"> terms </a>and
+                <a href="/"> privacy</a>
             </p>
         </div>
     );

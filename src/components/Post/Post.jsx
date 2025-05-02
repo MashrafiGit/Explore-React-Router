@@ -11,7 +11,7 @@ const Post = ({ post }) => {
 
 
     return (
-        <div style={{ border: '2px solid red' }}>
+        <div style={{ border: '2px solid red', marginTop: '6px'}}>
             <h3>{title}</h3>
             <Link to={`/posts/${id}`}>
                 <button>Show Details</button>
