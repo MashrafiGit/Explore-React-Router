@@ -7,7 +7,7 @@ const Posts = () => {
 
     return (
         <div>
-            <h2>these are my posts: {posts.length}</h2>
+            <h2>These are my posts: {posts.length}</h2>
             <div>
                 {
                     posts.map(post => <Post key={post.id} post={post}></Post>)
